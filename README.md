@@ -19,6 +19,10 @@ These tools can ingest the scaffolding and documentation to provide better code 
 - **Documentation** auto-generated from public API structures.
 - No original or proprietary NinjaTrader source code.
 
+## Usage
+
+Navigate to [https://gitmcp.io/matdev83/ninjatrader-autodocs](https://gitmcp.io/matdev83/ninjatrader-autodocs) to get instructions on how to set up your local coding platform using MCP, so agents can be made aware of the details of the NinjaScript™ framework.
+
 ## Disclaimer
 
 - This repository **does not contain any original source code** from NinjaTrader or any of its components.
