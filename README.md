@@ -3,7 +3,7 @@
 This repository contains **auto-generated scaffolding code and documentation** for the NinjaTrader 8™ (NT8) trading platform’s NinjaScript framework.  
 
 All content is produced **via .NET reflection**—no original platform code is included.
-A custom tool used to build contents of this repository is available at [https://github.com/matdev83/ninjatrader-autodocs-tools](https://github.com/matdev83/ninjatrader-autodocs-tools).
+A custom tool used to build contents of this repository is available at [ninjatrader-autodocs-tools](https://github.com/matdev83/ninjatrader-autodocs-tools).
 
 ## Purpose
 
