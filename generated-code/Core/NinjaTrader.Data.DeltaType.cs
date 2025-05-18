@@ -1,10 +1,8 @@
 namespace NinjaTrader.Data
 {
-    public partial enum DeltaType
+    public enum DeltaType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BidAsk = 0,
+        UpDownTick = 1
     }
 }

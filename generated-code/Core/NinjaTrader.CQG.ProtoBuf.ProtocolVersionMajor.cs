@@ -1,10 +1,8 @@
 namespace NinjaTrader.CQG.ProtoBuf
 {
-    public partial enum ProtocolVersionMajor
+    public enum ProtocolVersionMajor
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Dummy0 = 0,
+        ProtocolVersionMajor = 1
     }
 }

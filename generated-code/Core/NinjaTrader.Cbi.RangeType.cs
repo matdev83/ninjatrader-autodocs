@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum RangeType
+    public enum RangeType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Bars = 0,
+        Days = 1,
+        CustomRange = 2
     }
 }

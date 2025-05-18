@@ -1,10 +1,11 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum TimeInForce
+    public enum TimeInForce
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Day = 0,
+        Gtc = 1,
+        Ioc = 2,
+        Opg = 3,
+        Gtd = 4
     }
 }

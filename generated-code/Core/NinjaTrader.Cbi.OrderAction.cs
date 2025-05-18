@@ -1,10 +1,10 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum OrderAction
+    public enum OrderAction
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Buy = 0,
+        BuyToCover = 1,
+        Sell = 2,
+        SellShort = 3
     }
 }

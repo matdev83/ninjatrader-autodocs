@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum FxcmServerConnectionType
+    public enum FxcmServerConnectionType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        MarketData = 0,
+        Orders = 1
     }
 }

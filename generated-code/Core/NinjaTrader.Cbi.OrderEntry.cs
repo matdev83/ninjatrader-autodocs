@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum OrderEntry
+    public enum OrderEntry
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Automated = 0,
+        Manual = 1
     }
 }

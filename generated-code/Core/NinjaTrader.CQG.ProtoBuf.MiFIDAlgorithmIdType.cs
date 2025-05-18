@@ -1,10 +1,9 @@
 namespace NinjaTrader.CQG.ProtoBuf
 {
-    public partial enum MiFIDAlgorithmIdType
+    public enum MiFIDAlgorithmIdType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Dummy3 = 0,
+        ExternalMifidAlgoId = 1,
+        CqgMifidAlgoId = 2
     }
 }

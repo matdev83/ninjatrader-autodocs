@@ -1,10 +1,15 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum InstrumentType
+    public enum InstrumentType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Future = 0,
+        Stock = 1,
+        Index = 2,
+        Option = 3,
+        Forex = 4,
+        Cfd = 5,
+        Spread = 6,
+        CryptoCurrency = 7,
+        Unknown = 99
     }
 }

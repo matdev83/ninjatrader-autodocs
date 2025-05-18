@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum UserSubscriptionType
+    public enum UserSubscriptionType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Free = 0,
+        Monthly = 1,
+        Lifetime = 2
     }
 }

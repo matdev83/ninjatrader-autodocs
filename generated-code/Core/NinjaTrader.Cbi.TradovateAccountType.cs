@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum TradovateAccountType
+    public enum TradovateAccountType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Simulation = 0,
+        Live = 1
     }
 }

@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum DataType
+    public enum DataType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Ask = 0,
+        Bid = 1,
+        Last = 2
     }
 }

@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.SuperDomColumns
 {
-    public partial enum RecentDisplayType
+    public enum RecentDisplayType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Ask = 0,
+        Bid = 1,
+        BidAsk = 2
     }
 }

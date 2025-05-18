@@ -1,10 +1,17 @@
 namespace NinjaTrader.Server
 {
-    public partial enum ReportCommand
+    public enum ReportCommand
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AccountHistory = 0,
+        ChangeLogs = 1,
+        OrderHistory = 2,
+        ServerLogs = 3,
+        Fees = 4,
+        Executions = 5,
+        Orders = 6,
+        NewCustomers = 7,
+        NewLicenses = 8,
+        ScoreCard = 9,
+        FxcmLicenses = 10
     }
 }

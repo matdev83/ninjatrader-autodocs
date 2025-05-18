@@ -1,10 +1,11 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum ActivityType
+    public enum ActivityType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Adapter = 0,
+        Application = 1,
+        ChartPerformance = 2,
+        Login = 3,
+        NinjaScript = 4
     }
 }

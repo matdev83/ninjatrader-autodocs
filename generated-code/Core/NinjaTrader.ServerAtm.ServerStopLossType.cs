@@ -1,10 +1,13 @@
 namespace NinjaTrader.ServerAtm
 {
-    public partial enum ServerStopLossType
+    public enum ServerStopLossType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Stop = 0,
+        StopLimit = 1,
+        TrailingStop = 2,
+        TrailingStopLimit = 3,
+        AutoBreakeven = 4,
+        AutoTrail = 5,
+        AutoTrailAutoBreakeven = 6
     }
 }

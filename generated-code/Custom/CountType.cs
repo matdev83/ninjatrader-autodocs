@@ -1,7 +1,5 @@
-    public partial enum CountType
+    public enum CountType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Trades = 0,
+        Volume = 1
     }

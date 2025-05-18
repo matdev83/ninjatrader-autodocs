@@ -1,10 +1,11 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum PerformanceUnit
+    public enum PerformanceUnit
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Currency = 0,
+        Percent = 1,
+        Pips = 2,
+        Points = 3,
+        Ticks = 4
     }
 }

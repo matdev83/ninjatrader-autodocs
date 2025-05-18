@@ -1,10 +1,12 @@
 namespace NinjaTrader.Server
 {
-    public partial enum GenericCommand
+    public enum GenericCommand
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AddLicenseManagementLog = 0,
+        CancelLicense = 1,
+        DeleteUser = 2,
+        GenerateLicense = 3,
+        TransactionCreditPurchase = 4,
+        SendLifetimeLicenseTerms = 5
     }
 }

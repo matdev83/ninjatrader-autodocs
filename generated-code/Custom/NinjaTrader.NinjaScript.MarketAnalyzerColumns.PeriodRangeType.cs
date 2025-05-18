@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.MarketAnalyzerColumns
 {
-    public partial enum PeriodRangeType
+    public enum PeriodRangeType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Day = 0,
+        Week = 1
     }
 }

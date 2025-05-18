@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum AtmStrategySelectionMode
+    public enum AtmStrategySelectionMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        DisplaySelectedAtmStrategyOnly = 0,
+        SelectActiveAtmStrategyOnOrderSubmission = 1,
+        KeepSelectedAtmStrategyTemplateOnOrderSubmission = 2
     }
 }

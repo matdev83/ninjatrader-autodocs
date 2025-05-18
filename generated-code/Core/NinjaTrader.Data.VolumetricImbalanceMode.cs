@@ -1,10 +1,8 @@
 namespace NinjaTrader.Data
 {
-    public partial enum VolumetricImbalanceMode
+    public enum VolumetricImbalanceMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Diagonal = 0,
+        Horizontal = 1
     }
 }

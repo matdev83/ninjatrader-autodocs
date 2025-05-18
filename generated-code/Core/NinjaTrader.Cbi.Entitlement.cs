@@ -1,10 +1,17 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum Entitlement
+    public enum Entitlement
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Admin = 0,
+        AMP = 1,
+        Evaluation = 2,
+        GFF = 3,
+        MarketReplay = 4,
+        MultiBroker = 5,
+        OrderFlowPlus = 6,
+        RiskManagement = 7,
+        Rithmic = 8,
+        Server = 9,
+        StaticSuperDOM = 10
     }
 }

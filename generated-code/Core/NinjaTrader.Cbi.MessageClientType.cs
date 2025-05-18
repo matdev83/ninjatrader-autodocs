@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum MessageClientType
+    public enum MessageClientType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Desktop = 0,
+        Web = 1,
+        DesktopAndWeb = 2
     }
 }

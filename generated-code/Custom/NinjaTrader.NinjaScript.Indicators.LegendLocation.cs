@@ -1,10 +1,11 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum LegendLocation
+    public enum LegendLocation
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Disabled = 0,
+        TopLeft = 1,
+        TopRight = 2,
+        BottomLeft = 3,
+        BottomRight = 4
     }
 }

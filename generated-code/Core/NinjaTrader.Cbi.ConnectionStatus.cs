@@ -1,10 +1,11 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum ConnectionStatus
+    public enum ConnectionStatus
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Disconnected = 0,
+        Disconnecting = 1,
+        ConnectionLost = 2,
+        Connected = 3,
+        Connecting = 4
     }
 }

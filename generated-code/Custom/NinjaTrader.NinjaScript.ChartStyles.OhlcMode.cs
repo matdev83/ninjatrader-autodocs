@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.ChartStyles
 {
-    public partial enum OhlcMode
+    public enum OhlcMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        OHLC = 0,
+        HLC = 1,
+        HiLo = 2
     }
 }

@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi.TradingServices
 {
-    public partial enum VerificationState
+    public enum VerificationState
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Unverified = 0,
+        Verified = 1,
+        VerificationError = 2
     }
 }

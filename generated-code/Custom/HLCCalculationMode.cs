@@ -1,7 +1,6 @@
-    public partial enum HLCCalculationMode
+    public enum HLCCalculationMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        CalcFromIntradayData = 0,
+        DailyBars = 1,
+        UserDefinedValues = 2
     }

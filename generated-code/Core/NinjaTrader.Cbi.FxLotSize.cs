@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum FxLotSize
+    public enum FxLotSize
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        OneK = 1000,
+        TenK = 10000,
+        HundredK = 100000
     }
 }

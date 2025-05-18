@@ -1,10 +1,8 @@
 namespace NinjaTrader.Data
 {
-    public partial enum PointAndFigurePriceType
+    public enum PointAndFigurePriceType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Close = 0,
+        HighsAndLows = 1
     }
 }

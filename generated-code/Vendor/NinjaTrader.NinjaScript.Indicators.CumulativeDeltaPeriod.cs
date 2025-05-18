@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum CumulativeDeltaPeriod
+    public enum CumulativeDeltaPeriod
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Session = 0,
+        Bar = 1
     }
 }

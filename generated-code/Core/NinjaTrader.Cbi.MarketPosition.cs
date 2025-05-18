@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum MarketPosition
+    public enum MarketPosition
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Long = 0,
+        Short = 1,
+        Flat = 2
     }
 }

@@ -1,11 +1,11 @@
 [Flags]
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum AlertActionType
+    public enum AlertActionType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        PlaySound = 1,
+        Share = 2,
+        ShowMessage = 4,
+        SubmitOrder = 8
     }
 }

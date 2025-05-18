@@ -1,10 +1,10 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum CoreDialogType
+    public enum CoreDialogType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AddOn = 0,
+        Announcement = 1,
+        Restore = 2,
+        UpdateEntities = 3
     }
 }

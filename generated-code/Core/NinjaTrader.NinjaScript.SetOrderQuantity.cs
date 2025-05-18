@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum SetOrderQuantity
+    public enum SetOrderQuantity
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        DefaultQuantity = 0,
+        Strategy = 1
     }
 }

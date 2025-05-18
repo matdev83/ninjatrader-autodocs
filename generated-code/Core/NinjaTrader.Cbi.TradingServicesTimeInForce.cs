@@ -1,10 +1,12 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum TradingServicesTimeInForce
+    public enum TradingServicesTimeInForce
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Unknown = 0,
+        Day = 1,
+        FOK = 2,
+        GTC = 3,
+        GTD = 4,
+        IOC = 5
     }
 }

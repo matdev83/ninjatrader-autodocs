@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum InvalidCode
+    public enum InvalidCode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Default = 0,
+        Expired = 1,
+        Invalid = 2
     }
 }

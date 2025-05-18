@@ -1,10 +1,11 @@
 namespace NinjaTrader.NinjaScript.MarketAnalyzerColumns
 {
-    public partial enum TrendValue
+    public enum TrendValue
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AboveAsk = 0,
+        AtAsk = 1,
+        Between = 2,
+        AtBid = 3,
+        BelowBid = 4
     }
 }

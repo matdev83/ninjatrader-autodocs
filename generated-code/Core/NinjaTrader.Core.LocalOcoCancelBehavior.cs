@@ -1,10 +1,8 @@
 namespace NinjaTrader.Core
 {
-    public partial enum LocalOcoCancelBehavior
+    public enum LocalOcoCancelBehavior
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        CancelOtherSide = 0,
+        KeepOtherSideOpen = 1
     }
 }

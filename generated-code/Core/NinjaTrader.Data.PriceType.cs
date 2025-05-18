@@ -1,10 +1,13 @@
 namespace NinjaTrader.Data
 {
-    public partial enum PriceType
+    public enum PriceType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Close = 0,
+        High = 1,
+        Low = 2,
+        Median = 3,
+        Open = 4,
+        Typical = 5,
+        Weighted = 6
     }
 }

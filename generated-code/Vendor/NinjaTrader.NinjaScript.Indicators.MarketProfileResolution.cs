@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum MarketProfileResolution
+    public enum MarketProfileResolution
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Minute = 0,
+        Tick = 1
     }
 }

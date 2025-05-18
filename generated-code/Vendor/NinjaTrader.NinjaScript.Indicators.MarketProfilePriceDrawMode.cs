@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum MarketProfilePriceDrawMode
+    public enum MarketProfilePriceDrawMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Letters = 0,
+        Boxes = 1
     }
 }

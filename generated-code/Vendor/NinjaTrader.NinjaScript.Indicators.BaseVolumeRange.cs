@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum BaseVolumeRange
+    public enum BaseVolumeRange
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Percent = 0,
+        ExactVolume = 1
     }
 }

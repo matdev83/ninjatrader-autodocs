@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi.TradingServices
 {
-    public partial enum CommandType
+    public enum CommandType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Cancel = 0,
+        Modify = 1,
+        New = 2
     }
 }

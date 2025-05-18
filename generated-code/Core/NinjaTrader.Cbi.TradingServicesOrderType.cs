@@ -1,10 +1,15 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum TradingServicesOrderType
+    public enum TradingServicesOrderType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Unknown = 0,
+        Limit = 1,
+        Market = 2,
+        MIT = 3,
+        QTS = 4,
+        Stop = 5,
+        StopLimit = 6,
+        TrailingStop = 7,
+        TrailingStopLimit = 8
     }
 }

@@ -1,10 +1,10 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum AccountStatus
+    public enum AccountStatus
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Disabled = 0,
+        Enabled = 1,
+        LiquidationOnly = 2,
+        Excluded = 3
     }
 }

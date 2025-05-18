@@ -1,10 +1,10 @@
 namespace NinjaTrader.Gui
 {
-    public partial enum VariableType
+    public enum VariableType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        None = 0,
+        Alerts = 1,
+        TabName = 2,
+        All = 3
     }
 }

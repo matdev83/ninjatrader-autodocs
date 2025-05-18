@@ -1,10 +1,11 @@
 namespace NinjaTrader.Core
 {
-    public partial enum ApplicationType
+    public enum ApplicationType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BP = 0,
+        Desktop = 1,
+        DS = 2,
+        HDSIS = 3,
+        GW = 4
     }
 }

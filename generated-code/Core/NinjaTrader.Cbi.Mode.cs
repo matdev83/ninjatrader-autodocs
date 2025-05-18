@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum Mode
+    public enum Mode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Live = 0,
+        Simulation = 1
     }
 }

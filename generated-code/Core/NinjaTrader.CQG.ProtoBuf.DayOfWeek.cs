@@ -1,10 +1,13 @@
 namespace NinjaTrader.CQG.ProtoBuf
 {
-    public partial enum DayOfWeek
+    public enum DayOfWeek
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Sunday = 0,
+        Monday = 1,
+        Tuesday = 2,
+        Wednesday = 3,
+        Thursday = 4,
+        Friday = 5,
+        Saturday = 6
     }
 }

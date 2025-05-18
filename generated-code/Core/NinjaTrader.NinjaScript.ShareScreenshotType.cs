@@ -1,10 +1,11 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum ShareScreenshotType
+    public enum ShareScreenshotType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        None = 0,
+        Chart = 1,
+        Grid = 2,
+        Tab = 3,
+        Window = 4
     }
 }

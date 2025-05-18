@@ -1,10 +1,10 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum ConditionOffsetType
+    public enum ConditionOffsetType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Arithmetic = 0,
+        Pips = 1,
+        Percent = 2,
+        Ticks = 3
     }
 }

@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum PivotRangeWoodie
+    public enum PivotRangeWoodie
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Daily = 0,
+        Weekly = 1,
+        Monthly = 2
     }
 }

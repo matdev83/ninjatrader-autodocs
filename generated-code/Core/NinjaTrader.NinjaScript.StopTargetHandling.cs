@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum StopTargetHandling
+    public enum StopTargetHandling
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        ByStrategyPosition = 0,
+        PerEntryExecution = 1
     }
 }

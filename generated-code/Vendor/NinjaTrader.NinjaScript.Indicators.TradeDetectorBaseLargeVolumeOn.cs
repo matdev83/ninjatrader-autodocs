@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum TradeDetectorBaseLargeVolumeOn
+    public enum TradeDetectorBaseLargeVolumeOn
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BidAsk = 0,
+        Price = 1,
+        Block = 2
     }
 }

@@ -1,10 +1,15 @@
 namespace NinjaTrader.Core
 {
-    public partial enum SupportedLanguage
+    public enum SupportedLanguage
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        English = 0,
+        German = 1,
+        ChineseSimplified = 2,
+        Spanish = 3,
+        Russian = 4,
+        Portuguese = 5,
+        French = 6,
+        Italian = 7,
+        Korean = 8
     }
 }

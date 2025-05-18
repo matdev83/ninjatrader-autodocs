@@ -1,10 +1,8 @@
 namespace NinjaTrader.Gui.Chart
 {
-    public partial enum ChartCrosshairType
+    public enum ChartCrosshairType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        DirectX = 0,
+        WPF = 1
     }
 }

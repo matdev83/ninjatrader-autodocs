@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum EntryHandling
+    public enum EntryHandling
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AllEntries = 0,
+        UniqueEntries = 1
     }
 }

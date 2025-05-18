@@ -1,10 +1,13 @@
 namespace NinjaTrader.ServerAtm
 {
-    public partial enum ServerStrategyStatus
+    public enum ServerStrategyStatus
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        ActiveStrategy = 0,
+        ExecutionFailed = 1,
+        ExecutionFinished = 2,
+        ExecutionInterrupted = 3,
+        InactiveStrategy = 4,
+        NotEnoughLiquidity = 5,
+        StoppedByUser = 6
     }
 }

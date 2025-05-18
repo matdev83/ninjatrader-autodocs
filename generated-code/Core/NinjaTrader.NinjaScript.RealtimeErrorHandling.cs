@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum RealtimeErrorHandling
+    public enum RealtimeErrorHandling
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        IgnoreAllErrors = 0,
+        StopCancelClose = 1,
+        StopCancelCloseIgnoreRejects = 2
     }
 }

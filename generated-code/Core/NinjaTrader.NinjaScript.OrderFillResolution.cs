@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum OrderFillResolution
+    public enum OrderFillResolution
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        High = 0,
+        Standard = 1
     }
 }

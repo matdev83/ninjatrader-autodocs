@@ -1,10 +1,10 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum LicenseType
+    public enum LicenseType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        FreeTrial = 0,
+        Regular = 1,
+        SimulationOnly = 2,
+        ThinClient = 3
     }
 }

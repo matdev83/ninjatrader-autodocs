@@ -1,10 +1,13 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum ConditionType
+    public enum ConditionType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Equal = 0,
+        Greater = 1,
+        Smaller = 2,
+        GreaterEqual = 3,
+        SmallerEqual = 4,
+        Unequal = 5,
+        RegularExpression = 6
     }
 }

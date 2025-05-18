@@ -1,10 +1,12 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum AlertRearmType
+    public enum AlertRearmType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Never = 0,
+        OnTimer = 1,
+        OnBarClose = 2,
+        OnConditionReversed = 3,
+        OnConnect = 4,
+        RemoveAlert = 5
     }
 }

@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.SuperDomColumns
 {
-    public partial enum RecentResetWhen
+    public enum RecentResetWhen
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        PriceReturns = 0,
+        BidAskChange = 1
     }
 }

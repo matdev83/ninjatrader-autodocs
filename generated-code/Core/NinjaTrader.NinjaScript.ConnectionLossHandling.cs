@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum ConnectionLossHandling
+    public enum ConnectionLossHandling
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        KeepRunning = 0,
+        Recalculate = 1,
+        StopStrategy = 2
     }
 }

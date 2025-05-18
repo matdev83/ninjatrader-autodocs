@@ -1,10 +1,10 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum ClientType
+    public enum ClientType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Desktop = 0,
+        Mobile = 1,
+        Web = 2,
+        NTLM = 3
     }
 }

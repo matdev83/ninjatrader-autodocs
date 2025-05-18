@@ -1,10 +1,10 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum AlertHostType
+    public enum AlertHostType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Unset = 0,
+        Orphan = 1,
+        MarketAnalyzer = 2,
+        Chart = 3
     }
 }

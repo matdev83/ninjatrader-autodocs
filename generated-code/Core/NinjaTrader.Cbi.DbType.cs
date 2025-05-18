@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum DbType
+    public enum DbType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        MsSqlCe = 0,
+        MySql = 1,
+        SQLite = 2
     }
 }

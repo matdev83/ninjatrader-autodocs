@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum PlaybackFromMode
+    public enum PlaybackFromMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        CurrentDay = 0,
+        SelectedTime = 1,
+        Start = 2
     }
 }

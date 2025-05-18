@@ -1,10 +1,8 @@
 namespace NinjaTrader.Data
 {
-    public partial enum ReversalType
+    public enum ReversalType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Percent = 0,
+        Tick = 1
     }
 }

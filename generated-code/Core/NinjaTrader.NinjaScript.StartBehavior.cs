@@ -1,10 +1,11 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum StartBehavior
+    public enum StartBehavior
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AdoptAccountPosition = 0,
+        ImmediatelySubmit = 1,
+        ImmediatelySubmitSynchronizeAccount = 2,
+        WaitUntilFlat = 3,
+        WaitUntilFlatSynchronizeAccount = 4
     }
 }

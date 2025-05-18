@@ -1,10 +1,13 @@
 namespace NinjaTrader.Server
 {
-    public partial enum ScanCommand
+    public enum ScanCommand
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Activate = 0,
+        Add = 1,
+        Deactivate = 2,
+        HasStarted = 3,
+        Match = 4,
+        Remove = 5,
+        Update = 6
     }
 }

@@ -1,10 +1,10 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum VWAPStandardDeviations
+    public enum VWAPStandardDeviations
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        None = 0,
+        One = 1,
+        Two = 2,
+        Three = 3
     }
 }

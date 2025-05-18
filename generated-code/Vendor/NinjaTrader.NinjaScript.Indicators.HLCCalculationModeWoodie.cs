@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum HLCCalculationModeWoodie
+    public enum HLCCalculationModeWoodie
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        CalcFromIntradayData = 0,
+        DailyBars = 1,
+        UserDefinedValues = 2
     }
 }

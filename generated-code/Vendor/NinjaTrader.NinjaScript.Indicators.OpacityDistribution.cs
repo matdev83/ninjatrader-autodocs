@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum OpacityDistribution
+    public enum OpacityDistribution
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Low = 9,
+        Normal = 5,
+        High = 1
     }
 }

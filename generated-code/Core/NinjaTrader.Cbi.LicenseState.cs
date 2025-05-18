@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum LicenseState
+    public enum LicenseState
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Invalid = 0,
+        NeedsVerification = 1,
+        Verified = 2
     }
 }

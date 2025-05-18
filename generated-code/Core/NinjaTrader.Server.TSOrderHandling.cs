@@ -1,10 +1,9 @@
 namespace NinjaTrader.Server
 {
-    public partial enum TSOrderHandling
+    public enum TSOrderHandling
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        SubmitMarketOrder = 0,
+        SubmitAsIs = 1,
+        SubmitAndForget = 2
     }
 }

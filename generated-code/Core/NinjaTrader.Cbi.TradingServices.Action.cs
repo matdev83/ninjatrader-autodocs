@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi.TradingServices
 {
-    public partial enum Action
+    public enum Action
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Unknown = 0,
+        Buy = 1,
+        Sell = 2
     }
 }

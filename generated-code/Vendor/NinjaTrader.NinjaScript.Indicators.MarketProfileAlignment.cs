@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum MarketProfileAlignment
+    public enum MarketProfileAlignment
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Left = 0,
+        Right = 1
     }
 }

@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum VWAPResetInterval
+    public enum VWAPResetInterval
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Session = 0,
+        Week = 1,
+        Month = 2
     }
 }

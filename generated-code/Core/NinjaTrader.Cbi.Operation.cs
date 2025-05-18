@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum Operation
+    public enum Operation
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Add = 0,
+        Update = 1,
+        Remove = 2
     }
 }

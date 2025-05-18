@@ -1,10 +1,8 @@
 namespace NinjaTrader.Data
 {
-    public partial enum VolumetricChartStyleType
+    public enum VolumetricChartStyleType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BidAsk = 0,
+        Delta = 1
     }
 }

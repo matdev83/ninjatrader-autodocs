@@ -1,10 +1,11 @@
 namespace NinjaTrader.NinjaScript.DrawingTools
 {
-    public partial enum TextPosition
+    public enum TextPosition
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BottomLeft = 0,
+        BottomRight = 1,
+        Center = 2,
+        TopLeft = 3,
+        TopRight = 4
     }
 }

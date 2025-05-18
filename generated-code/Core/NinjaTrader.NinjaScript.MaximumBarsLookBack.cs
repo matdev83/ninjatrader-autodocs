@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum MaximumBarsLookBack
+    public enum MaximumBarsLookBack
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        TwoHundredFiftySix = 0,
+        Infinite = 1
     }
 }

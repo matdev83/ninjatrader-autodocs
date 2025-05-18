@@ -1,10 +1,10 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum ConditionOffsetOperator
+    public enum ConditionOffsetOperator
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Add = 0,
+        Subtract = 1,
+        Multiply = 2,
+        Divide = 3
     }
 }

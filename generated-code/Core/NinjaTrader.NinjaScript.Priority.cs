@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum Priority
+    public enum Priority
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        High = 0,
+        Medium = 1,
+        Low = 2
     }
 }

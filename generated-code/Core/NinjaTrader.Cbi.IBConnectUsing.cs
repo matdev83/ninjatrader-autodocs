@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum IBConnectUsing
+    public enum IBConnectUsing
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Tws = 0,
+        Gateway = 1
     }
 }

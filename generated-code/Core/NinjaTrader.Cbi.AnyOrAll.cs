@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum AnyOrAll
+    public enum AnyOrAll
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Any = 0,
+        All = 1
     }
 }

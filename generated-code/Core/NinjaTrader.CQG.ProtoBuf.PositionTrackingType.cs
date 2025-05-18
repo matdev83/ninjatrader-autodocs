@@ -1,10 +1,10 @@
 namespace NinjaTrader.CQG.ProtoBuf
 {
-    public partial enum PositionTrackingType
+    public enum PositionTrackingType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Dummy2 = 0,
+        NetPosition = 1,
+        LongShortWithImpliedClose = 2,
+        LongShortWithExplicitClose = 3
     }
 }

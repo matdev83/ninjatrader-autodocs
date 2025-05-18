@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum ColumnType
+    public enum ColumnType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BarGraph = 0,
+        Regular = 1
     }
 }

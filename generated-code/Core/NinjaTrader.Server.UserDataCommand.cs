@@ -1,10 +1,8 @@
 namespace NinjaTrader.Server
 {
-    public partial enum UserDataCommand
+    public enum UserDataCommand
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        LicensedProviders = 0,
+        Logs = 1
     }
 }

@@ -1,10 +1,8 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum QuantityModificationForStocks
+    public enum QuantityModificationForStocks
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        IncreaseQuantity = 0,
+        SubmitNewOrder = 1
     }
 }

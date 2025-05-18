@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum VWAPResolution
+    public enum VWAPResolution
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Standard = 0,
+        Tick = 1
     }
 }

@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum MarketAnalyzerColumnColorDistribution
+    public enum MarketAnalyzerColumnColorDistribution
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Automatic = 0,
+        Manual = 1
     }
 }

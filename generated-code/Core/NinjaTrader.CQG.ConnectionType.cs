@@ -1,10 +1,10 @@
 namespace NinjaTrader.CQG
 {
-    public partial enum ConnectionType
+    public enum ConnectionType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Regular = 0,
+        ForexDirectFXRetail = 1,
+        ForexDirectDXInstitutional = 2,
+        ForexOanda = 3
     }
 }

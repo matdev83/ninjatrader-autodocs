@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum DepthMapDisplayMode
+    public enum DepthMapDisplayMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Both = 0,
+        Realtime = 1,
+        Historical = 2
     }
 }

@@ -1,10 +1,10 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum LogLevel
+    public enum LogLevel
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Alert = 0,
+        Information = 1,
+        Warning = 2,
+        Error = 3
     }
 }

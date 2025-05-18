@@ -1,10 +1,9 @@
 namespace NinjaTrader.Data
 {
-    public partial enum ConnectionOnRequest
+    public enum ConnectionOnRequest
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        NotConnected = 0,
+        Connected = 1,
+        PreferredConnection = 2
     }
 }

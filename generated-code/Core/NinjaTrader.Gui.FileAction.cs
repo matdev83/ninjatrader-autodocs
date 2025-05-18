@@ -1,10 +1,9 @@
 namespace NinjaTrader.Gui
 {
-    public partial enum FileAction
+    public enum FileAction
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        None = 0,
+        Open = 1,
+        Save = 2
     }
 }

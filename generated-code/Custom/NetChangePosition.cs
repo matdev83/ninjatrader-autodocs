@@ -1,7 +1,7 @@
-    public partial enum NetChangePosition
+    public enum NetChangePosition
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BottomLeft = 0,
+        BottomRight = 1,
+        TopLeft = 2,
+        TopRight = 3
     }

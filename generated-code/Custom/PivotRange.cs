@@ -1,7 +1,6 @@
-    public partial enum PivotRange
+    public enum PivotRange
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Daily = 0,
+        Weekly = 1,
+        Monthly = 2
     }

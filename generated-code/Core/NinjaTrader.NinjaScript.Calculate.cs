@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum Calculate
+    public enum Calculate
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        OnBarClose = 0,
+        OnEachTick = 1,
+        OnPriceChange = 2
     }
 }

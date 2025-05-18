@@ -1,7 +1,5 @@
-    public partial enum DeviationType
+    public enum DeviationType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Percent = 0,
+        Points = 1
     }

@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.SuperDomColumns
 {
-    public partial enum DisplayType
+    public enum DisplayType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Percent = 0,
+        Volume = 1
     }
 }

@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum PrintTo
+    public enum PrintTo
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        OutputTab1 = 0,
+        OutputTab2 = 1
     }
 }

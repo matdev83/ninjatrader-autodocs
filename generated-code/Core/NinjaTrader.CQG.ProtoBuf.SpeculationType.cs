@@ -1,10 +1,10 @@
 namespace NinjaTrader.CQG.ProtoBuf
 {
-    public partial enum SpeculationType
+    public enum SpeculationType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Dummy4 = 0,
+        Speculation = 1,
+        Arbitrage = 2,
+        Hedge = 3
     }
 }

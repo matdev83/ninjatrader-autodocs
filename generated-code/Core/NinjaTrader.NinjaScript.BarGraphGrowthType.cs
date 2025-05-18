@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum BarGraphGrowthType
+    public enum BarGraphGrowthType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Center = 0,
+        LeftToRight = 1,
+        RightToLeft = 2
     }
 }

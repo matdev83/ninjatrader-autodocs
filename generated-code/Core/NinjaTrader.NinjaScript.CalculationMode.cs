@@ -1,10 +1,11 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum CalculationMode
+    public enum CalculationMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Currency = 0,
+        Percent = 1,
+        Price = 2,
+        Ticks = 3,
+        Pips = 4
     }
 }

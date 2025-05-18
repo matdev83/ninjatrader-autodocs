@@ -1,10 +1,9 @@
 namespace NinjaTrader.Core
 {
-    public partial enum UserSymbologySetting
+    public enum UserSymbologySetting
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Numeric = 0,
+        Abbreviation = 1,
+        Exchange = 2
     }
 }

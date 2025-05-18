@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum StartupInfoType
+    public enum StartupInfoType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Startup = 0,
+        Message = 1,
+        OnDemand = 2
     }
 }

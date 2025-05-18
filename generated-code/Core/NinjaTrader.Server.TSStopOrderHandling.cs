@@ -1,10 +1,9 @@
 namespace NinjaTrader.Server
 {
-    public partial enum TSStopOrderHandling
+    public enum TSStopOrderHandling
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        SubmitAsIs = 0,
+        Convert2StopLimit = 1,
+        SubmitAsSimStop = 2
     }
 }

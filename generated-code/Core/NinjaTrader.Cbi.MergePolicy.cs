@@ -1,10 +1,11 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum MergePolicy
+    public enum MergePolicy
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        DoNotMerge = 0,
+        MergeBackAdjusted = 1,
+        MergeNonBackAdjusted = 2,
+        UseGlobalSettings = 3,
+        UseDefault = 4
     }
 }

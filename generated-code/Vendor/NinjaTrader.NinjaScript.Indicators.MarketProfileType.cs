@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum MarketProfileType
+    public enum MarketProfileType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Volume = 0,
+        Tick = 2,
+        Price = 3
     }
 }

@@ -1,10 +1,9 @@
 namespace NinjaTrader.Server
 {
-    public partial enum HealthStatus
+    public enum HealthStatus
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Stopped = 0,
+        Started = 1,
+        Healthy = 2
     }
 }

@@ -1,10 +1,56 @@
 namespace NinjaTrader.Data
 {
-    public partial enum NewsProvider
+    public enum NewsProvider
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AfxCnf = 0,
+        AfxFocus = 1,
+        AfxUk = 2,
+        Asia = 3,
+        AssociatedPress = 4,
+        BusinessWire = 5,
+        Canada = 6,
+        Catalog = 7,
+        CbsMarketWatch = 8,
+        Commercial = 9,
+        Comtex = 10,
+        Default = 11,
+        DowJones = 12,
+        Dtn = 13,
+        DtnNewsBreak = 14,
+        Europe = 15,
+        FirstCall = 16,
+        FuturesWorld = 17,
+        Google = 18,
+        InternetWire = 19,
+        JagNotes = 20,
+        KnightRidder = 21,
+        M2 = 22,
+        MarketGuide = 23,
+        MarketNewsPub = 24,
+        MarketWire = 25,
+        MidnightTrader = 26,
+        PREuro = 27,
+        PRNewswire = 28,
+        PrimeZone = 29,
+        RealTimeTrader = 30,
+        Reuters = 31,
+        ReutersBasic = 32,
+        ReutersPremium = 33,
+        RssDailyFx = 34,
+        RssGoogle = 35,
+        RssYahoo = 36,
+        RttProNews = 37,
+        TheFlyOnTheWall = 38,
+        Upi = 39,
+        Us = 40,
+        Usda = 41,
+        Yahoo = 42,
+        ZacksTrader = 43,
+        CityFalcon = 44,
+        CMEGroup = 45,
+        CNBC = 46,
+        Fastmarkets = 47,
+        InvestingDotCom = 48,
+        TradovateTwitter = 49
     }
 }

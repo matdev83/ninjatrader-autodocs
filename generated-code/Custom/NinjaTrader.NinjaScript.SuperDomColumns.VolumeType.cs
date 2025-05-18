@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.SuperDomColumns
 {
-    public partial enum VolumeType
+    public enum VolumeType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BuySell = 0,
+        Standard = 1
     }
 }

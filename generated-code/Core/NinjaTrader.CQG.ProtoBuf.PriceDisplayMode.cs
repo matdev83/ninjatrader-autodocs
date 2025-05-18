@@ -1,10 +1,9 @@
 namespace NinjaTrader.CQG.ProtoBuf
 {
-    public partial enum PriceDisplayMode
+    public enum PriceDisplayMode
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Numerator = 0,
+        Rounded = 1,
+        Truncated = 2
     }
 }

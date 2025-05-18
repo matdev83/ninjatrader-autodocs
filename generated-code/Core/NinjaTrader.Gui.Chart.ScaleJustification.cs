@@ -1,11 +1,10 @@
 [Flags]
 namespace NinjaTrader.Gui.Chart
 {
-    public partial enum ScaleJustification
+    public enum ScaleJustification
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Right = 1,
+        Left = 2,
+        Overlay = 4
     }
 }

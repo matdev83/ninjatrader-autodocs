@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum OptionRight
+    public enum OptionRight
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Call = 0,
+        Put = 1,
+        Unknown = 99
     }
 }

@@ -1,11 +1,9 @@
 [Flags]
 namespace NinjaTrader.Cbi
 {
-    public partial enum LookupPolicies
+    public enum LookupPolicies
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Provider = 1,
+        Repository = 2
     }
 }

@@ -1,10 +1,11 @@
 namespace NinjaTrader.Server
 {
-    public partial enum LiquidationCommand
+    public enum LiquidationCommand
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AccountLiquidationStateResponse = 1,
+        ServerLiquidationStateRequest = 2,
+        ServerLiquidationStateResponse = 3,
+        SetServerLiquidationState = 4,
+        SetAccountLiquidationState = 5
     }
 }

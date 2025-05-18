@@ -1,10 +1,9 @@
 namespace NinjaTrader.Cbi
 {
-    public partial enum TradingHoursBreakLineVisible
+    public enum TradingHoursBreakLineVisible
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        AllSessions = 0,
+        EodOnly = 1,
+        Off = 2
     }
 }

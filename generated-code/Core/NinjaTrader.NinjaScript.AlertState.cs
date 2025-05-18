@@ -1,10 +1,9 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum AlertState
+    public enum AlertState
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Unset = 0,
+        Triggered = 1,
+        Reversed = 2
     }
 }

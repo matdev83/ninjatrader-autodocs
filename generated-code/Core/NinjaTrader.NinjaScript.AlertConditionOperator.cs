@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript
 {
-    public partial enum AlertConditionOperator
+    public enum AlertConditionOperator
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Any = 0,
+        All = 1
     }
 }

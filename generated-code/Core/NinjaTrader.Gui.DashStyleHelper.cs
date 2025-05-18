@@ -1,10 +1,11 @@
 namespace NinjaTrader.Gui
 {
-    public partial enum DashStyleHelper
+    public enum DashStyleHelper
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        Solid = 0,
+        Dash = 1,
+        DashDot = 2,
+        DashDotDot = 3,
+        Dot = 4
     }
 }

@@ -1,10 +1,8 @@
 namespace NinjaTrader.NinjaScript.Indicators
 {
-    public partial enum CumulativeDeltaType
+    public enum CumulativeDeltaType
     {
-        #region Properties
-        #endregion
-        #region Methods
-        #endregion
+        BidAsk = 0,
+        UpDownTick = 1
     }
 }
