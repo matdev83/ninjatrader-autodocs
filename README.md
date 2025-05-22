@@ -19,7 +19,7 @@ These tools can ingest the scaffolding and documentation to provide better code 
 ## What’s Included
 
 - [**Scaffolding code**](https://github.com/matdev83/ninjatrader-autodocs/tree/HEAD/generated-code) for NinjaScript framework (classes, methods, etc.), auto-generated via .NET reflection.
-- **Documentation** auto-generated from public API structures.
+- [**Commented code**](https://github.com/matdev83/ninjatrader-autodocs/tree/HEAD/generated-code-with-comments) containing class definitions from generated-code/ enriched with LLM-generated detailed comments.
 - No original or proprietary NinjaTrader source code.
 
 ## Usage
