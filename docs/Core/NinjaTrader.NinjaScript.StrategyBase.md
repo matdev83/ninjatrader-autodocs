@@ -1,0 +1,262 @@
+# StrategyBase
+
+Namespace: `NinjaTrader.NinjaScript`
+Type: class
+
+This documentation is generated from reflection scaffolding and may be incomplete.
+
+## Properties
+- `BacktestCommissionTemplate` (string)
+- `BarsPeriodParameter` (NinjaTrader.NinjaScript.Parameter)
+- `BarsRequiredToTrade` (int)
+- `Category` (Category)
+- `ChartIndicators` (NinjaTrader.NinjaScript.IndicatorBase[])
+- `ConnectionLossHandling` (ConnectionLossHandling)
+- `DaysToLoad` (int)
+- `DefaultName` (string)
+- `DefaultQuantity` (int)
+- `DisconnectDelaySeconds` (int)
+- `DisplayName` (string)
+- `DisplayParameters` (string)
+- `EntriesPerDirection` (int)
+- `EntryHandling` (EntryHandling)
+- `ExitOnSessionCloseSeconds` (int)
+- `FillType` (NinjaTrader.NinjaScript.FillType)
+- `IgnoreOverfill` (bool)
+- `IncludeCommission` (bool)
+- `IncludeTradeHistoryInBacktest` (bool)
+- `InitBarsSeriesIndex` (NinjaTrader.NinjaScript.Index2BarsString)
+- `InstrumentOrInstrumentList` (string)
+- `IsAdoptAccountPositionAware` (bool)
+- `IsAggregated` (bool)
+- `IsExitOnSessionCloseStrategy` (bool)
+- `IsFillLimitOnTouch` (bool)
+- `IsInstantiatedOnEachOptimizationIteration` (bool)
+- `IsOptimizeDataSeries` (bool)
+- `IsStableSession` (bool)
+- `IsTerminal` (bool)
+- `IsTickReplay` (bool)
+- `IsTradingHoursBreakLineVisible` (bool)
+- `IsUnmanaged` (bool)
+- `IsWaitUntilFlat` (bool)
+- `NumberRestartAttempts` (int)
+- `Optimizer` (NinjaTrader.NinjaScript.Optimizers.Optimizer)
+- `OptimizationFitness` (NinjaTrader.NinjaScript.OptimizationFitnesses.OptimizationFitness)
+- `OptimizationParameters` (System.Collections.ObjectModel.Collection<NinjaTrader.NinjaScript.Parameter>)
+- `OptimizationPeriod` (int)
+- `OrderFillResolution` (OrderFillResolution)
+- `OrderFillResolutionType` (BarsPeriodType)
+- `OrderFillResolutionValue` (int)
+- `InputsProvider` (NinjaTrader.NinjaScript.IStrategyInputsProvider)
+- `PerformanceMetrics` (NinjaTrader.NinjaScript.PerformanceMetricBase[])
+- `Position` (NinjaTrader.Cbi.Position)
+- `PositionAccount` (NinjaTrader.Cbi.Position)
+- `Positions` (NinjaTrader.Cbi.Position[])
+- `PositionsAccount` (NinjaTrader.Cbi.Position[])
+- `RealtimeErrorHandling` (RealtimeErrorHandling)
+- `RestartsWithinMinutes` (int)
+- `SetOrderQuantity` (SetOrderQuantity)
+- `Slippage` (double)
+- `StartBehavior` (StartBehavior)
+- `StopTargetHandling` (StopTargetHandling)
+- `SupportsOptimizationGraph` (bool)
+- `SystemPerformance` (NinjaTrader.Cbi.SystemPerformance)
+- `TimeElapsedForOptimizer` (System.TimeSpan)
+- `TestPeriod` (int)
+- `TraceOrders` (bool)
+- `TradingHoursInstance` (NinjaTrader.Data.TradingHours)
+- `TradingHoursSerializable` (string)
+- `GeneratedStrategyLogic` (NinjaTrader.NinjaScript.StrategyGenerator.GeneratedStrategyLogicBase)
+- `ValidOrderFillResolutions` (System.Collections.Generic.List<BarsPeriodType>)
+- `Variable0` (double)
+- `Variable1` (double)
+- `Variable2` (double)
+- `Variable3` (double)
+- `Variable4` (double)
+- `Variable5` (double)
+- `Variable6` (double)
+- `Variable7` (double)
+- `Variable8` (double)
+- `Variable9` (double)
+- `WaitForOcoClosingBracket` (bool)
+- `Workspace` (string)
+- `Account` (NinjaTrader.Cbi.Account)
+- `All` (System.Collections.ObjectModel.Collection<NinjaTrader.NinjaScript.StrategyBase>)
+- `Executions` (System.Collections.ObjectModel.Collection<NinjaTrader.Cbi.Execution>)
+- `Gtd` (System.DateTime)
+- `Id` (long)
+- `LogTypeName` (string)
+- `Orders` (System.Collections.ObjectModel.Collection<NinjaTrader.Cbi.Order>)
+- `ServerId` (long)
+- `Template` (string)
+- `TimeInForce` (TimeInForce)
+- `UserData` (System.Xml.Linq.XDocument)
+
+## Methods
+- `AddChartIndicator(NinjaTrader.NinjaScript.IndicatorBase indicator)` : void
+- `AddPerformanceMetric(NinjaTrader.NinjaScript.PerformanceMetricBase performanceMetric)` : void
+- `BarsSinceEntryExecution(void)` : int
+- `BarsSinceEntryExecution(string signalName)` : int
+- `BarsSinceEntryExecution(int barsInProgressIndex, string signalName, int entryExecutionsAgo)` : int
+- `BarsSinceExitExecution(void)` : int
+- `BarsSinceExitExecution(string signalName)` : int
+- `BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecutionsAgo)` : int
+- `CopyOrdersAndExecutionsTo(NinjaTrader.NinjaScript.StrategyBase strategyBase)` : void
+- `CreateNewGeneration(bool copyOrdersAndExecutions, bool? inclTradeHistoryInBacktest)` : NinjaTrader.NinjaScript.StrategyBase
+- `DbGet(long id)` : NinjaTrader.NinjaScript.StrategyBase
+- `DbRemove(void)` : void
+- `DbRemoveByCategory(Category category, bool useMailDB)` : void
+- `EnterReadLock(void)` : System.Collections.Generic.List<NinjaTrader.Data.BarsSeries>
+- `ExitReadLock(System.Collections.Generic.List<NinjaTrader.Data.BarsSeries> readLockList)` : void
+- `GetQuantity(MarketPosition marketPosition, int quantity)` : int
+- `GetRealtimeOrder(NinjaTrader.Cbi.Order historicalOrder)` : NinjaTrader.Cbi.Order
+- `GetTradingHours(NinjaTrader.Cbi.Instrument instrument)` : NinjaTrader.Data.TradingHours
+- `MergePerformance(NinjaTrader.Cbi.SystemPerformance performance)` : void
+- `RunBacktest(void)` : void
+- `RunOptimization(System.Action<NinjaTrader.NinjaScript.StrategyBase> callback)` : void
+- `ToString(void)` : string
+- `AddExecution(NinjaTrader.Cbi.Position position, NinjaTrader.Cbi.Execution execution, NinjaTrader.Cbi.Order order)` : void
+- `CancelOrder(NinjaTrader.Cbi.Order order)` : void
+- `ChangeOrder(NinjaTrader.Cbi.Order order, int quantity, double limitPrice, double stopPrice)` : void
+- `CloseStrategy(string signalName)` : void
+- `EnterLong(void)` : NinjaTrader.Cbi.Order
+- `EnterLong(string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLong(int quantity)` : NinjaTrader.Cbi.Order
+- `EnterLong(int quantity, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLong(int barsInProgressIndex, int quantity, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongLimit(double limitPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongLimit(double limitPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongLimit(int quantity, double limitPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongLimit(int quantity, double limitPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongMIT(double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongMIT(double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongMIT(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongMIT(int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongMIT(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongStopLimit(double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongStopLimit(double limitPrice, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongStopLimit(int quantity, double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongStopLimit(int quantity, double limitPrice, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongStopMarket(double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongStopMarket(double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongStopMarket(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterLongStopMarket(int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterLongStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShort(void)` : NinjaTrader.Cbi.Order
+- `EnterShort(string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShort(int quantity)` : NinjaTrader.Cbi.Order
+- `EnterShort(int quantity, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShort(int barsInProgressIndex, int quantity, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortLimit(double limitPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortLimit(double limitPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortLimit(int quantity, double limitPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortLimit(int quantity, double limitPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortMIT(double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortMIT(double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortMIT(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortMIT(int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortMIT(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortStopLimit(double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortStopLimit(double limitPrice, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortStopLimit(int quantity, double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortStopLimit(int quantity, double limitPrice, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortStopMarket(double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortStopMarket(double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortStopMarket(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `EnterShortStopMarket(int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `EnterShortStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName)` : NinjaTrader.Cbi.Order
+- `ExitLong(void)` : NinjaTrader.Cbi.Order
+- `ExitLong(int quantity)` : NinjaTrader.Cbi.Order
+- `ExitLong(string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLong(string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLong(int quantity, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLong(int barsInProgressIndex, int quantity, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongLimit(double limitPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongLimit(int quantity, double limitPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongLimit(double limitPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongLimit(double limitPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongLimit(int quantity, double limitPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongMIT(double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongMIT(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongMIT(double stopPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongMIT(double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongMIT(int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongMIT(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopLimit(double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongStopLimit(int quantity, double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongStopLimit(double limitPrice, double stopPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopLimit(double limitPrice, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopLimit(int quantity, double limitPrice, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopMarket(double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongStopMarket(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitLongStopMarket(double stopPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopMarket(double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopMarket(int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitLongStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShort(void)` : NinjaTrader.Cbi.Order
+- `ExitShort(int quantity)` : NinjaTrader.Cbi.Order
+- `ExitShort(string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShort(string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShort(int quantity, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShort(int barsInProgressIndex, int quantity, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortLimit(double limitPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortLimit(int quantity, double limitPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortLimit(double limitPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortLimit(double limitPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortLimit(int quantity, double limitPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortMIT(double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortMIT(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortMIT(double stopPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortMIT(double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortMIT(int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortMIT(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopLimit(double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortStopLimit(int quantity, double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortStopLimit(double limitPrice, double stopPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopLimit(double limitPrice, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopLimit(int quantity, double limitPrice, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopMarket(double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortStopMarket(int quantity, double stopPrice)` : NinjaTrader.Cbi.Order
+- `ExitShortStopMarket(double stopPrice, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopMarket(double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopMarket(int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `ExitShortStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double stopPrice, string signalName, string fromEntrySignal)` : NinjaTrader.Cbi.Order
+- `AtmStrategyCancelEntryOrder(string orderId)` : bool
+- `AtmStrategyChangeEntryOrder(double limitPrice, double stopPrice, string orderId)` : bool
+- `AtmStrategyChangeStopTarget(double limitPrice, double stopPrice, string orderName, string atmStrategyId)` : bool
+- `AtmStrategyClose(string atmStrategyId)` : bool
+- `AtmStrategyCreate(OrderAction action, OrderType orderType, double limitPrice, double stopPrice, TimeInForce timeInForce, string orderId, string strategyTemplateName, string atmStrategyId, System.Action<ErrorCode, string> callback)` : void
+- `GetAtmStrategyEntryOrderStatus(string orderId)` : System.String[]
+- `GetAtmStrategyMarketPosition(string atmStrategyId)` : MarketPosition
+- `GetAtmStrategyPositionAveragePrice(string atmStrategyId)` : double
+- `GetAtmStrategyPositionQuantity(string atmStrategyId)` : int
+- `GetAtmStrategyRealizedProfitLoss(string atmStrategyId)` : double
+- `GetAtmStrategyStopTargetOrderStatus(string orderName, string atmStrategyId)` : System.String[0...,0...]
+- `GetAtmStrategyUnrealizedProfitLoss(string atmStrategyId)` : double
+- `GetAtmStrategyUniqueId(void)` : string
+- `FillOrder(NinjaTrader.Cbi.Order order, double fillPrice, double slippage)` : bool
+- `SetParabolicStop(CalculationMode mode, double value)` : void
+- `SetParabolicStop(string fromEntrySignal, CalculationMode mode, double value, bool isSimulatedStop, double acceleration, double accelerationMax, double accelerationStep)` : void
+- `SetProfitTarget(CalculationMode mode, double value)` : void
+- `SetProfitTarget(CalculationMode mode, double value, bool isMIT)` : void
+- `SetProfitTarget(string fromEntrySignal, CalculationMode mode, double value)` : void
+- `SetProfitTarget(string fromEntrySignal, CalculationMode mode, double value, bool isMIT)` : void
+- `SetStopLoss(CalculationMode mode, double value)` : void
+- `SetStopLoss(string fromEntrySignal, CalculationMode mode, double value, bool isSimulatedStop)` : void
+- `SetTrailStop(CalculationMode mode, double value)` : void
+- `SetTrailStop(string fromEntrySignal, CalculationMode mode, double value, bool isSimulatedStop)` : void
+- `SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderType orderType, int quantity)` : NinjaTrader.Cbi.Order
+- `SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderType orderType, int quantity, double limitPrice)` : NinjaTrader.Cbi.Order
+- `SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderType orderType, int quantity, double limitPrice, double stopPrice)` : NinjaTrader.Cbi.Order
+- `SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderType orderType, int quantity, double limitPrice, double stopPrice, string oco)` : NinjaTrader.Cbi.Order
+- `SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderType orderType, int quantity, double limitPrice, double stopPrice, string oco, string signalName)` : NinjaTrader.Cbi.Order
+- `CopyTo(NinjaTrader.NinjaScript.NinjaScript ninjaScript)` : void
+- `SetUniqueId(void)` : void
