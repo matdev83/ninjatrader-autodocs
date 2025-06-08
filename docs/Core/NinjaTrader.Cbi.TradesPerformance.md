@@ -1,0 +1,46 @@
+# TradesPerformance
+
+Namespace: `NinjaTrader.Cbi`
+Type: class
+
+This documentation is generated from reflection scaffolding and may be incomplete.
+
+## Properties
+- `AverageBarsInTrade` (double)
+- `AverageEntryEfficiency` (double)
+- `AverageExitEfficiency` (double)
+- `AverageTimeInMarket` (System.TimeSpan)
+- `AverageTimeInMarketSerializable` (long)
+- `AverageTotalEfficiency` (double)
+- `Currency` (NinjaTrader.Cbi.TradesPerformanceValues)
+- `GrossLoss` (double)
+- `GrossProfit` (double)
+- `LongestFlatPeriod` (System.TimeSpan)
+- `LongestFlatPeriodSerializable` (long)
+- `MaxConsecutiveLoser` (int)
+- `MaxConsecutiveWinner` (int)
+- `MaxDate` (System.DateTime)
+- `MaxTimeToRecover` (System.TimeSpan)
+- `MaxTime2RecoverSerializable` (long)
+- `MinDate` (System.DateTime)
+- `MonthlyStdDev` (double)
+- `MonthlyUlcer` (double)
+- `MonthlyDownTarget` (double)
+- `NeedsUpdate` (bool)
+- `NetProfit` (double)
+- `Percent` (NinjaTrader.Cbi.TradesPerformanceValues)
+- `PerformanceMetrics` (NinjaTrader.NinjaScript.PerformanceMetricBase[])
+- `Pips` (NinjaTrader.Cbi.TradesPerformanceValues)
+- `Points` (NinjaTrader.Cbi.TradesPerformanceValues)
+- `Probability` (double)
+- `ProfitFactor` (double)
+- `RiskFreeReturn` (double)
+- `RSquared` (double)
+- `SharpeRatio` (double)
+- `SortinoRatio` (double)
+- `Ticks` (NinjaTrader.Cbi.TradesPerformanceValues)
+- `TotalQuantity` (int)
+- `TradesCount` (int)
+- `TradesPerDay` (double)
+- `TotalCommission` (double)
+- `TotalSlippage` (double)
